@@ -1,0 +1,24 @@
+.login {
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.login__wrap {
+  display: grid;
+  place-items: center;
+}
+
+.login__wrap > img {
+  width: 100%;
+}
+
+.login__wrap > a {
+  background-color: #1db954;
+  color: white;
+  border-radius: 99px;
+  font-weight: 800;
+  padding: 20px;
+  text-decoration: none;
+}
